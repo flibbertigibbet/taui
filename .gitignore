@@ -4,6 +4,7 @@
 node_modules
 npm-debug.log
 assets
+out
 tmp
 yarn-error.log
 store.json

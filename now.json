@@ -1,7 +1,6 @@
 {
   "name": "taui",
-  "version": 2,
-  "alias": ["taui.now.sh"],
+  "version": 3,
   "build": {
     "env": {
       "MAPBOX_ACCESS_TOKEN": "@mapbox-access-token"

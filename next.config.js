@@ -7,7 +7,7 @@ if (fs.existsSync('store.json')) {
 }
 
 module.exports = withCSS({
-  target: 'serverless',
+  target: 'server',
   env: {
     MAPBOX_ACCESS_TOKEN: process.env.MAPBOX_ACCESS_TOKEN,
     STORE: store
