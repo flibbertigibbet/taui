@@ -6,6 +6,7 @@
     "build": "next build",
     "check-format": "prettier -l \"src/**/*.js\" \"pages/**/*.js\"",
     "dev": "next",
+    "export": "next export",
     "format": "prettier --write \"src/**/*.js\" \"pages/**/*.js\"",
     "now-build": "next build",
     "predev": "yarn",
@@ -31,8 +32,8 @@
   "dependencies": {
     "@conveyal/lonlat": "^1.4.0",
     "@conveyal/woonerf": "^4.1.0",
-    "@fortawesome/fontawesome-svg-core": "^1.2.15",
-    "@fortawesome/free-solid-svg-icons": "^5.7.2",
+    "@fortawesome/fontawesome-svg-core": "^1.2.19",
+    "@fortawesome/free-solid-svg-icons": "^5.9.0",
     "@fortawesome/react-fontawesome": "^0.1.4",
     "@mapbox/polyline": "^1.0.0",
     "@zeit/next-css": "^1.0.1",
@@ -41,12 +42,12 @@
     "lodash": "^4.17.11",
     "mapbox-gl": "^0.53.1",
     "memoize-one": "^5.0.0",
-    "next": "v8.0.3",
+    "next": "v8.1.0",
     "next-cookies": "^1.1.2",
-    "node-fetch": "^2.3.0",
+    "node-fetch": "^2.6.0",
     "normalize.css": "^8.0.1",
-    "react": "v16.8.4",
-    "react-dom": "v16.8.4",
+    "react": "v16.8.6",
+    "react-dom": "v16.8.6",
     "react-modal": "^3.8.1",
     "react-redux": "^6.0.1",
     "react-select": "^2.4.2",
@@ -64,8 +65,8 @@
     "jest": "^24.5.0",
     "prettier": "^1.16.4",
     "pretty-quick": "^1.10.0",
-    "regenerator-runtime": "^0.13.1",
-    "semantic-release": "^15.13.3"
+    "regenerator-runtime": "^0.13.2",
+    "semantic-release": "^15.13.16"
   },
   "babel": {
     "presets": [
